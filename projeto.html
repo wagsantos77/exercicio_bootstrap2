@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os Reis da F1</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <style>
+        .navbar-nav .nav-link.active {
+            color: white;
+        }
+
+        .carousel-inner .carousel-item.active h1 {
+            color: cornsilk;
+        }
+
+        .nav-link {
+            text-align: center;
+        }
+
+        section {
+            height: 100vh;
+            background-color: #a0cbee;
+            padding-top: 72px ;
+        }
+
+        header {
+
+            top: 0;
+            left: 0;
+            background-color: azure;
+        }
+
+        .form-campo {
+            margin-bottom: 16px;
+        }
+
+        .form-campo label {
+             font-weight: bold;
+             display: block;
+        }       
+
+        form button {
+            max-width: 120px;
+        }
+
+        .form-campo input,
+        .form-campo textarea {
+            width: 50%;
+            display: block;
+            padding: 8px;
+        }
+
+        .form-campo textarea {
+            resize: none;
+            height: 120px;
+        }
+
+        form {
+            max-width: 180px;
+        }
+
+        @media only screen and (max-width: 844px) {
+        .container .row .col-4 .card .card-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            max-width: 100%;
+        } 
+         
+        .container .row .col-4{
+            width: 100%;
+            
+        }
+
+
+       }
+   </style>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Os Reis da Formula Um</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#osnumerosdosreis">Os numeros dos Reis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://cdn.gpblog.com/news/2023/02/14/v2_large_ce6e8e72d89f697aa5ba93dbcf8b77ff7e01500e.jpg" />
+                    <div class="carousel-caption">
+                        <h1>Nelson Piquet</h1>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://terrabrasilnoticias.com/wp-content/uploads/2024/01/01-634-750x375.jpg.webp" />
+                    <div class="carousel-caption">
+                        <h1>Michael Schumacher</h1>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://istoe.com.br/wp-content/uploads/2023/07/max01-scaled-e1695557244862.jpg?x25148" />
+                    <div class="carousel-caption">
+                        <h1>Max Verstappen</h1>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        </div>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="osnumerosdosreis">
+            <h2>Os numeros dos Reis</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <article class="card">
+                            <header class="card-header">
+                                <h4>Nelson Piquet</h4>
+                            </header>
+                            <img src="https://istoedinheiro.com.br/wp-content/uploads/sites/17/2017/08/piquet-4.jpg?x46096" />
+                            <div class="card-body">
+                                <ul class="card-text">
+                                    <li>3 títulos mundiais de Fórmula 1 em (1981, 1983 e 1987)</li>
+                                    <li>Temporadas na F-1: 13 - (1978-1991)</li>
+                                    <li>GPs iniciados: 204</li>
+                                    <li>Pódios: 60</li>
+                                    <li>Vitórias: 23</li>
+                                    <li>Pole positions: 24</li>
+                                    <li>Melhores voltas: 23</li>
+                                    <li>Pontos marcados: 481,5</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <article class="card">
+                            <header class="card-header">
+                                <h4>Michael Schumacher</h4>
+                            </header>
+                            <img src="https://c.wallhere.com/photos/8e/66/Formula_1_Scuderia_Ferrari_Ferrari_F2002_race_cars_Michael_Schumacher-1970435.jpg!d" />
+                            <div class="card-body">
+                                <ul class="card-text">
+                                    <li>Número de corridas: 308</li>
+                                    <li>Número de vitórias: 91</li>
+                                    <li>Total de pontos: 1566</li>
+                                    <li>Pódios: 155</li>
+                                    <li>Pole positions: 68</li>
+                                    <li>Melhores voltas: 77</li>
+                                    <li>Títulos mundiais: 7 (1994, 1995, 2000, 2001, 2002, 2003 e 2004)</li>                                                        
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <article class="card">
+                            <header class="card-header">
+                                <h4>Max Verstappen</h4>
+                            </header>
+                            <img src="https://f1chronicle.com/wp-content/uploads/2022/02/SI202202230410_news-scaled.jpg" />
+                            <div class="card-body">
+                                <ul class="card-text">
+                                    <li>Número de corridas: 171</li>
+                                    <li>Número de vitórias: 54</li>
+                                    <li>Pódios: 98</li>
+                                    <li>Pole positions: 31</li>
+                                    <li>Melhores voltas: 31</li>
+                                    <li>Títulos mundiais: 3 (2021, 2022, 2023)</li>                                    
+                                </ul>
+                            </div>
+                        </article>
+                    </div>            
+                </div>
+        </section>
+
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <div class="form-campo">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+              </div>
+              <div class="form-campo">
+                <label for="Telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+              </div>
+              <div class="form-campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+              </div>
+              <div class="form-campo">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+              </div>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
+        </div>
+
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+
+</body>
+</html>
